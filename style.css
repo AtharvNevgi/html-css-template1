@@ -1,0 +1,16 @@
+.container{
+    height: 100vh; /* viewport height */
+   width: 100%;
+   background-color: black;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10rem;
+}
