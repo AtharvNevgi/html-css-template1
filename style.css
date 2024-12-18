@@ -16,11 +16,16 @@
 }
 .container2{
     background-image: url(https://images.unsplash.com/photo-1442188950719-e8a67aea613a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-attachment: fixed;
+    background-attachment:fixed;
 }
 .container3{
+    height: 190vh;
     background-image: url();
     background-color: white;
+    background-attachment: fixed;
+}
+.container4{
+    background-image: url(https://images.unsplash.com/photo-1505592225030-dad7a0531844?q=80&w=1475&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-attachment: fixed;
 }
 /*-------- navbar styling -------*/
@@ -156,7 +161,7 @@
     width: 100%;
     height: 100px;
     /* background: red; */
-    margin-bottom: 47%;
+    margin-bottom: 70%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -171,7 +176,7 @@
     margin-bottom: 25px;
 }
 .horizontalLine2{
-    width: 6%;
+    width: 4%;
     height: 4px;
     background: black;
     margin-bottom: 35px;
@@ -179,7 +184,6 @@
 .heading3 p{
     width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
     color: black;
 }
 .collection{
@@ -218,4 +222,40 @@
     width: 33.33%;
     height: 365px;
     background: pink;
+}
+
+/*------- page 4 styling -------*/
+.heading4{
+    width: 45%;
+    height: 450px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5rem 5rem;
+    border-radius: 20px;
+    border: transparent;
+}
+.heading4 h2{
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: black;
+    margin: 20px 0px ;
+}
+.horizontalLine4{
+    width: 4%;
+    height: 4px;
+    background: black;
+    margin-bottom: 30px;
+
+}
+.heading4 p{
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 3rem 0rem;
 }
