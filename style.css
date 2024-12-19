@@ -11,27 +11,32 @@
    align-items: center; 
 }
 .container1{
-    background-image: url(https://images.unsplash.com/photo-1517579351329-f1897f2a953b?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.unsplash.com/photo-1442188950719-e8a67aea613a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-attachment: fixed;
 }
 .container2{
-    background-image: url(https://images.unsplash.com/photo-1442188950719-e8a67aea613a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://static.wixstatic.com/media/1e47b2_cd5df08585b64f40a575e620ed3bf997.jpg/v1/fill/w_1423,h_650,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1e47b2_cd5df08585b64f40a575e620ed3bf997.jpg);
     background-attachment:fixed;
 }
 .container3{
-    height: 190vh;
+    height: 130vh;
     background-image: url();
     background-color: white;
     background-attachment: fixed;
 }
 .container4{
-    background-image: url(https://images.unsplash.com/photo-1505592225030-dad7a0531844?q=80&w=1475&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://static.wixstatic.com/media/1e47b2_0d6c77b5ffd04c0e92f186a8193c3e3c.jpg/v1/fill/w_1423,h_673,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1e47b2_0d6c77b5ffd04c0e92f186a8193c3e3c.jpg);
     background-attachment: fixed;
+    height: 90vh;
 }
 .container5{
-    background-image: url(https://images.unsplash.com/photo-1530955726961-a788ec4b4657?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://static.wixstatic.com/media/9b6c7d_54033d6d82c24d8e9be8212d3a8febe6.jpg/v1/fill/w_1423,h_520,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/9b6c7d_54033d6d82c24d8e9be8212d3a8febe6.jpg);
     background-attachment: fixed;
-
+    height: 80vh;
+}
+.container6{
+    background-image: url(https://img.freepik.com/premium-photo/international-workers-day-background-from-many-tools_715074-1399.jpg?semt=ais_hybrid);
+    background-attachment: fixed;
 }
 /*-------- navbar styling -------*/
 .navbar{
@@ -166,7 +171,7 @@
     width: 100%;
     height: 100px;
     /* background: red; */
-    margin-bottom: 70%;
+    margin-bottom: 60%;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
@@ -232,14 +237,14 @@
 /*------- page 4 styling -------*/
 .heading4{
     width: 45%;
-    height: 450px;
+    height: 600px;
     background: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 5rem 5rem;
+
     border-radius: 20px;
     border: transparent;
 }
@@ -255,12 +260,52 @@
     width: 4%;
     height: 4px;
     background: black;
-    margin-bottom: 30px;
-
+    margin-bottom: 100px;
 }
 .heading4 p{
     width: 100%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: black;
-    margin: 3rem 0rem;
+    margin-bottom: 20rem;
+}
+
+/*------- page 5 styling -------*/
+.heading5{
+    width: 45%;
+    height: 700px;
+    background: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5rem 5rem;
+    border-radius: 20px;
+    border: 1PX transparent black;
+}
+.heading5 h2{
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+.horizontalLine5{
+    width: 4%;
+    height: 4px;
+    background: black;
+    margin-bottom: 5%;
+}
+.left{
+    width: 45%;
+    height: 450px;
+    background: blue;
+
+}
+.right{
+    width: 45%;
+    height: 450px;
+    background: green;
 }
