@@ -273,7 +273,7 @@
 .heading5{
     width: 45%;
     height: 700px;
-    background: red;
+    background: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -285,7 +285,7 @@
 .inner{
     width: 100%;
     height: 70px;
-    background: yellow;
+    /* background: yellow; */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -309,8 +309,8 @@
 }
 .left{
     width: 50%;
-    height: 530px;
-    background: blue;
+    height: 590px;
+    /* background: blue; */
     margin-bottom: 5rem;
 }
 .left p{
@@ -318,12 +318,12 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
     margin-left: 4rem;
-    margin-top: 1rem;
+    margin-top: 45px;
 }
 .right{
     width: 50%;
     height: 590px;
-    background: green;
+    /* background: green; */
     margin-bottom: 5rem;
 }
 
@@ -337,7 +337,7 @@ form{
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: left;
-
+    
 }
 input{
     padding: 14px;
@@ -347,4 +347,35 @@ input{
 .message{
     padding: 40px;
     width: 64%;
+}
+.submit{
+    width: 91%;
+    background-color: black;
+    color: white;
+}
+
+/*------- footer styling -------*/
+.footer{
+    width: 100%;
+    height: 163px;
+    background: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social2{
+    width: 8.5%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    /* background: red; */
+    margin-bottom: 29px;
+}
+.social2 p{
+    width: 100%;
+}
+.social2 img{
+    width: 100%;
+    height: 100%;
 }
